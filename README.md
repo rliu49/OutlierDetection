@@ -19,28 +19,28 @@
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Heatmap%20show%20outliers%20at%20different%20sd.png" height="500" width="700">
 
 ## Display the distribution of Feature 0 in Dummy Data Frame ( different SD level)
-
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/feature%200%20histogram%20at%20different%20sd.png" height="500" width="700">
 
 # Non parametric Methods : Univariate
  For this part, use a new dataset descrbing the housing market in Melbourne.
+ 
+### Data Desciption
+ <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housingdes.png" height="500" width="700">
 
-## Saving Accounts vs Duration 
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Saving%20accounts%20and%20duration.png" height="500" width="700">
+### Histogram 
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housinghis.png" height="500" width="700">
 
-## Pairplots
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Pairplot.png" height="500" width="700">
+## Isolation Forest
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/isolation%20forest.png" height="500" width="700">
 
-## Purpose 
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Histogram.png" height="500" width="700">
+# Parametric Methods : Multivariate (Using Elliptic Envelope)
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/elliptic%20envelope.png" height="500" width="700">
 
-## Job 
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Job.png" height="500" width="700">
+# Non parametric Methods : Multivariate 
+## DBSCAN
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dbscan.png" height="500" width="700">
 
-## Frequency at Each Age Level
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Age%20and%20Frenquency.png" height="500" width="700">
+## Local Outlier Factor
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/local%20outlier%20factor.png" height="500" width="700">
 
-From the graph, we could see the Age from 23 to 32 are the target customers. The frequency range are mainly from 2000 to 5000, suggesting short term credit within this rangfe attracts maximum clients.  
 
-## Scatter Plot : Credit Amount as x-axis
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Credit%20and%20Age.png" height="500" width="700">
