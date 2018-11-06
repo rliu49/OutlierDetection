@@ -2,7 +2,7 @@
 
 # Project Desciption:
 
-<img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Framework%20German%20Credit.png" height="300" width="900">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Outlier%20Detection%20Framework.png" height="300" width="900">
 
 # Data Description
 
