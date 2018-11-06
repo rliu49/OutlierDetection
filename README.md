@@ -38,9 +38,9 @@
 
 # Non parametric Methods : Multivariate 
 ## DBSCAN
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dbscan.png" height="500" width="700">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dbscan.png" height="400" width="600">
 
 ## Local Outlier Factor
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/local%20outlier%20factor.png" height="500" width="700">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/local%20outlier%20factor.png" height="400" width="600">
 
 
