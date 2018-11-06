@@ -2,9 +2,11 @@
 
 # Project Desciption:
 
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Outlier%20Detection%20Framework.png" height="300" width="900">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Outlier%20Detection%20Framework.png" height="400" width="900">
 
-# Data Description
+# Parametric methods: Univariate 
+
+## Create a dummy data frame with normal distribution 
 
 <img src="https://github.com/rliu49/German-Credit-Analysis/blob/master/Imgs/Datades.png" height="500" width="900">
 
