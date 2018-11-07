@@ -31,7 +31,7 @@ Use histograms to show the normal distribution of all 4 features.
 
 Identify the outliers that falls outside 3 standard deviations and visualize them in the histogram. 
 
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Feature%200%20Distribution.png" height="500" width="550">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Feature%200%20Distribution.png" height="500" width="600">
 
 ## Compare Standard Deviation and Interquartile Range
 
@@ -46,25 +46,40 @@ Select the feature 0 from the dummy data frame and make a detailed visualization
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/feature%200%20histogram%20at%20different%20sd.png" height="400" width="600">
 
 # Non parametric Methods : Univariate
- For this part, use a new dataset descrbing the housing market in Melbourne.
+ 
+ After discussing the outlier detection methods using parametric methods. For the non-parametrics methods, use a new dataset descrbing the housing market in Melbourne.
  
 ### Data Desciption
+
  <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housingdes.png" height="250" width="900">
 
 ### Histogram 
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housinghis.png" height="500" width="700">
 
 ## Isolation Forest
+
+The IsolationForest ‘isolates’ observations by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature.
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/isolation%20forest.png" height="400" width="750">
 
 # Parametric Methods : Multivariate (Using Elliptic Envelope)
+
+The scikit-learn provides the Elliptic Envelope, which is used for detecting outliers in a Gaussian distributed dataset.It fits robust covariance estimate to the data, and thus fits an ellipse to the central data points, ignoring points outside the central mode.
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/elliptic%20envelope.png" height="400" width="600">
 
 # Non parametric Methods : Multivariate 
-## DBSCAN
+## DBSCAN:Density-based spatial clustering of applications with noise
+
+Density-based spatial clustering of applications with noise is a data clustering algorithm proposed by Martin Ester, Hans-Peter Kriegel, Jörg Sander and Xiaowei Xu in 1996.It is a density-based clustering algorithm: given a set of points in some space, it groups together points that are closely packed together (points with many nearby neighbors), marking as outliers points that lie alone in low-density regions (whose nearest neighbors are too far away).
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dbscan.png" height="450" width="600">
 
 ## Local Outlier Factor
+
+The local outlier factor (LOF) is an algorithm proposed by Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng and Jörg Sander in 2000 for finding anomalous data points by measuring the local deviation of a given data point with respect to its neighbours.
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/local%20outlier%20factor.png" height="450" width="600">
 
 
