@@ -19,7 +19,7 @@ Below is the overall framework of this project:
 
 For the parametric methods, create a dummy data frame where features have normal distributions.
 
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dummydf.png" height="250" width="900">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dummydf.png" height="350" width="550">
 
 ## Show normal distribution of the dummy dataframe
 
@@ -30,12 +30,19 @@ Use histograms to show the normal distribution of all 4 features.
 ## Test Outliers according to the Standard Deviation
 
 Identify the outliers that falls outside 3 standard deviations and visualize them in the histogram. 
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Feature%200%20Distribution.png" height="500" width="550">
 
-## Compare Standard Deviation and Interquantile Range
+## Compare Standard Deviation and Interquartile Range
+
+Compare the standard deviation method and interquartile range method using a heat map. Identify the outliers at 2 ,3, 4 standard deviations and 1.5 , 2.5 ,3.5 IQR. 
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Heatmap%20show%20outliers%20at%20different%20sd.png" height="500" width="900">
 
 ## Display the distribution of Feature 0 in Dummy Data Frame ( different SD level)
+
+Select the feature 0 from the dummy data frame and make a detailed visualization at different standard deviation level, where there red area suggests the data fall outside 2 standard deviations, green area suggests the data outside 3 standard deviations and yellow area suggests the data outrside 4 standard deviations.
+
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/feature%200%20histogram%20at%20different%20sd.png" height="400" width="600">
 
 # Non parametric Methods : Univariate
