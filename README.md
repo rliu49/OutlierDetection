@@ -1,4 +1,4 @@
-# OutlierDetection
+# Outlier Detection
 
 An outlier is an observation point that is distant from other observations in statistics. An outlier may be due to variability in the measurement or it may indicate the experimental error. An outlier can cause serious problems in statistical analyses and affect the analysis results. 
 
