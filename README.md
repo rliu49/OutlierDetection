@@ -72,13 +72,13 @@ The scikit-learn provides the Elliptic Envelope, which is used for detecting out
 # Non parametric Methods : Multivariate 
 ## DBSCAN:Density-based spatial clustering of applications with noise
 
-Density-based spatial clustering of applications with noise is a data clustering algorithm proposed by Martin Ester, Hans-Peter Kriegel, Jörg Sander and Xiaowei Xu in 1996.It is a density-based clustering algorithm: given a set of points in some space, it groups together points that are closely packed together (points with many nearby neighbors), marking as outliers points that lie alone in low-density regions (whose nearest neighbors are too far away).
+Density-based spatial clustering of applications with noise is a data clustering algorithm proposed by Martin Ester, Hans-Peter Kriegel, Jörg Sander and Xiaowei Xu in 1996.It is a density-based clustering algorithm: given a set of points in some space, it groups together points that are closely packed together , marking as outliers points that lie alone in low-density regions.
 
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/dbscan.png" height="450" width="600">
 
 ## Local Outlier Factor
 
-The local outlier factor (LOF) is an algorithm proposed by Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng and Jörg Sander in 2000 for finding anomalous data points by measuring the local deviation of a given data point with respect to its neighbours.
+The local outlier factor is an algorithm proposed by Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng and Jörg Sander in 2000 for finding anomalous data points by measuring the local deviation of a given data point with respect to its neighbours.
 
 <img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/local%20outlier%20factor.png" height="450" width="600">
 
