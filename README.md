@@ -6,20 +6,20 @@
 
 ## Create a dummy data frame with normal distribution 
 
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housingdes.png" height="300" width="900">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/housingdes.png" height="250" width="900">
 
 ## Show normal distribution of the dummy dataframe
 
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/normal%20distrobution%20dummy%20df.png" height="500" width="600">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/normal%20distrobution%20dummy%20df.png" height="500" width="550">
 
 ## Test Outliers according to the Standard Deviation
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/normal%20distrobution%20dummy%20df.png" height="500" width="600">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/normal%20distrobution%20dummy%20df.png" height="500" width="550">
 
 ## Compare Standard Deviation and Interquantile Range
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Heatmap%20show%20outliers%20at%20different%20sd.png" height="500" width="800">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/Heatmap%20show%20outliers%20at%20different%20sd.png" height="500" width="900">
 
 ## Display the distribution of Feature 0 in Dummy Data Frame ( different SD level)
-<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/feature%200%20histogram%20at%20different%20sd.png" height="450" width="650">
+<img src="https://github.com/rliu49/OutlierDetection/blob/master/Imgs/feature%200%20histogram%20at%20different%20sd.png" height="400" width="600">
 
 # Non parametric Methods : Univariate
  For this part, use a new dataset descrbing the housing market in Melbourne.
